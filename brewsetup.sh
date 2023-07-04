@@ -12,9 +12,8 @@ brew install --cask alacritty --no-quarantine
 brew tap homebrew/cask-fonts
 brew install font-symbols-only-nerd-font font-mplus-nerd-font font-fira-code-nerd-font font-hack-nerd-font
 
-
 # Installs as a default gem.
-#sudo gem update --system 
+sudo gem update --system 
 
 # system update and restart mac
-#sudo softwareupdate -i -a -R
+sudo softwareupdate -i -a -R
