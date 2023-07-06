@@ -115,6 +115,12 @@ alias ls='exa'
 alias lsa='exa -la'
 
 eval "$(/opt/homebrew/bin/brew shellenv)"
-eval "$(starship init zsh)"
+# eval "$(starship init zsh)"
 export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
+export TERM=xterm-256color 
+export COLORTERM=truecolor 
 
+# User configuration
+if [[ $WITH_STARSHIP = true ]]; then 
+    eval "$(starship init zsh)"
+fi 
