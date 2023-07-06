@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 
-#
 echo "Init base git configuration"
 echo "Enter your configuration for Git"
 read -p "Enter email: " email

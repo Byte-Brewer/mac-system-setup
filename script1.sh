@@ -15,9 +15,7 @@ brew install --cask alacritty --no-quarantine
 
 # Install nerd fonts
 
-# What is the brew tap command?
-# The brew tap command is used to add additional Homebrew repositories.
+# What is the brew `tap` command?
+# The `brew tap` command is used to add additional Homebrew repositories.
 brew tap homebrew/cask-fonts
 brew install font-symbols-only-nerd-font font-mplus-nerd-font font-fira-code-nerd-font font-hack-nerd-font
-
-
