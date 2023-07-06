@@ -110,6 +110,10 @@ export LANG=en_US.UTF-8
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+alias ls='exa'
+alias lsa='exa -la'
+
 eval "$(/opt/homebrew/bin/brew shellenv)"
 eval "$(starship init zsh)"
 export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
