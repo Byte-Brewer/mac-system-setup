@@ -4,6 +4,10 @@ brew update && brew outdated
 brew upgrade && brew cleanup 
 brew install ruby
 brew install mint
+brew install git
+brew install exa
+brew install zsh
+brew install cocoapods
 brew install jesseduffield/lazygit/lazygit
 brew install --cask iterm2
 brew install --cask sublime-text
