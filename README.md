@@ -47,6 +47,7 @@ The next script to run is script2.sh. This script installs custom ZSH plugins, w
 
 By executing this script, you will have a customized shell environment with additional plugins and an updated system.
 
+<ins><b> Note:</b></ins> Please, Use **Alacritty** as default terminal.
 
 ## Step 5: Preparing Git for Work
 
