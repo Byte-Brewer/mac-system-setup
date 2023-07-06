@@ -27,7 +27,8 @@ The initial setup script, script0.sh, should be executed first. This script perf
 ./script0.sh
 ```
 By running this script, you will initiate the setup process and perform necessary configurations.
-Step 3: Installing Brew Packages and Nerd Fonts
+
+## Step 3: Installing Brew Packages and Nerd Fonts
 
 After running the initial setup script, proceed to run the next script, script1.sh. This script installs various packages and fonts using Homebrew (a package manager for macOS). These packages and fonts are commonly used in development environments. To execute the script, use the following command:
 ```console
