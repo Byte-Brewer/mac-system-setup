@@ -7,9 +7,9 @@ brew install ruby
 brew install mint
 brew install git
 brew install exa
+brew install starship
 brew install cocoapods
 brew install jesseduffield/lazygit/lazygit
-brew install --cask iterm2
 brew install --cask sublime-text
 brew install --cask alacritty --no-quarantine 
 
@@ -19,3 +19,6 @@ brew install --cask alacritty --no-quarantine
 # The `brew tap` command is used to add additional Homebrew repositories.
 brew tap homebrew/cask-fonts
 brew install font-symbols-only-nerd-font font-mplus-nerd-font font-fira-code-nerd-font font-hack-nerd-font
+
+# Apply zshrc config
+exec zsh

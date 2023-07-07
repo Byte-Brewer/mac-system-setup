@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/usr/bin/env zsh
 
 # Install ohmyzsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
@@ -23,4 +23,4 @@ mkdir -p ~/.config/alacritty/
 ln -s $(pwd)/alacritty.yaml  ~/.config/alacritty/alacritty.yml
 
 # Apply zshrc config
-source ~/.zshrc
+exec zsh

@@ -21,3 +21,6 @@ sudo gem update --system
 # Why do to restart system after update?
 # The restart is required to complete the installation of some updates.
 sudo softwareupdate -i -a -R
+
+# Apply zshrc config
+exec zsh
