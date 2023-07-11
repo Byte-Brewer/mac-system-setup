@@ -21,6 +21,7 @@ brew install --cask microsoft-outlook
 brew install --cask sublime-text
 brew install --cask proxyman
 brew install --cask insomnia
+brew install --cask google-chrome
 brew install --cask alacritty --no-quarantine 
 
 # Install nerd fonts
