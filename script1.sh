@@ -19,6 +19,8 @@ brew install --cask gitkraken
 brew install --cask visual-studio-code
 brew install --cask microsoft-outlook
 brew install --cask sublime-text
+brew install --cask proxyman
+brew install --cask insomnia
 brew install --cask alacritty --no-quarantine 
 
 # Install nerd fonts
