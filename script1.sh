@@ -17,6 +17,7 @@ brew install --cask zoom
 brew install --cask figma
 brew install --cask gitkraken
 brew install --cask visual-studio-code
+brew install --cask microsoft-outlook
 brew install --cask sublime-text
 brew install --cask alacritty --no-quarantine 
 
