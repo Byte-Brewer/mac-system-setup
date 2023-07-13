@@ -10,6 +10,7 @@ brew install exa
 brew install starship
 brew install cocoapods
 brew install jesseduffield/lazygit/lazygit
+brew install --cask stats
 brew install --cask microsoft-teams
 brew install --cask slack
 brew install --cask telegram
