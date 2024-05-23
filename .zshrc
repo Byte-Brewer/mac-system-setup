@@ -111,8 +111,8 @@ export LANG=en_US.UTF-8
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-alias ls='exa'
-alias lsa='exa -la'
+alias ls='eza'
+alias lsa='eza -la'
 
 eval "$(/opt/homebrew/bin/brew shellenv)"
 # eval "$(starship init zsh)"
