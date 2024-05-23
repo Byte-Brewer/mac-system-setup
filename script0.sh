@@ -18,9 +18,11 @@ mkdir -p ~/.config
 ln -s $(pwd)/starship.toml  ~/.config/starship.toml
 
 # Clean up and set alacritty config
-rm -rf ~/.config/alacritty/alacritty.yml
+rm -rf ~/.config/alacritty/alacritty.toml
+rm -rf ~/.config/alacritty/theme.toml
 mkdir -p ~/.config/alacritty/
-ln -s $(pwd)/alacritty.yaml  ~/.config/alacritty/alacritty.yml
+ln -s $(pwd)/alacritty.toml  ~/.config/alacritty/alacritty.toml
+ln -s $(pwd)/alacritty_theme.toml  ~/.config/alacritty/theme.toml
 
 # Apply zshrc config
 exec zsh
