@@ -6,7 +6,7 @@ brew upgrade && brew cleanup
 brew install ruby
 brew install mint
 brew install git
-brew install exa
+brew install eza
 brew install starship
 brew install cocoapods
 brew install jesseduffield/lazygit/lazygit
